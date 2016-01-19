@@ -31,6 +31,7 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
 public final class Main {
+	
     private static Options getOptions() {
         Option dir = OptionBuilder.withArgName("dir")
             .hasArg()
@@ -44,6 +45,7 @@ public final class Main {
     }
     
     public static void main(String[] args) throws Exception {
+    	System.out.println("This is version wdtk-3456");
       Options options = getOptions();
       try {
         
