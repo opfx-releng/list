@@ -45,7 +45,7 @@ public final class Main {
     }
     
     public static void main(String[] args) throws Exception {
-    	System.out.println("This is version wdtk-3456");
+    	System.out.println("This is version wdtk-3456 ");
       Options options = getOptions();
       try {
         
